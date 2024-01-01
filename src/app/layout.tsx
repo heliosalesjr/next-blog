@@ -19,10 +19,10 @@ export default function RootLayout({
     <header>
       <div>
         <Link href={"/"}>
-         <h1>Helio's Blog</h1>
+         <h1>Hélio's Blog</h1>
         </Link>
         
-        <p>This is Helio's Blog</p>
+        <p>This is Hélio's Blog</p>
       </div>
     </header>
   );
@@ -30,7 +30,7 @@ export default function RootLayout({
   const footer = (
     <footer>
       <div>
-        <p>Developed by Hélio</p>
+        <p>Developed by Hélio Sales Jr. 👨🏾‍💻</p>
       </div>
     </footer>
   );
