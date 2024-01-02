@@ -30,7 +30,9 @@ export default function RootLayout({
   const footer = (
     <footer>
       <div>
-        <p>Developed by Hélio Sales Jr. 👨🏾‍💻</p>
+        <p className='text-lg'> 
+        Developed by Hélio Sales Jr.</p>
+        <p className='text-5xl'>👨🏾‍💻</p>
       </div>
     </footer>
   );
