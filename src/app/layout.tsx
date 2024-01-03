@@ -6,8 +6,8 @@ import Link from '../../node_modules/next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Helio's Blog",
-  description: 'Hey you',
+  title: "Hélio com H",
+  description: "Hélio's blog",
 }
 
 export default function RootLayout({
@@ -17,19 +17,19 @@ export default function RootLayout({
 }) {
   const header = (
     <header>
-      <div>
+      <div className='bg-slate-800 text-center p-8 my-6 rounded-lg'>
         <Link href={"/"}>
-         <h1>Hélio's Blog</h1>
+         <h1 className='text-3xl text-white'>Hélio com H</h1>
         </Link>
         
-        <p>This is Hélio's Blog</p>
+        <p className='text-slate-300'>This is Hélio's Blog</p>
       </div>
     </header>
   );
 
   const footer = (
     <footer>
-      <div>
+      <div className='border-t border-slate-400 text-center mt-6 py-6 text-slate-400'>
         <p className='text-lg'> 
         Developed by Hélio Sales Jr.</p>
         <p className='text-5xl'>👨🏾‍💻</p>
@@ -39,9 +39,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {header}
-        {children}
-        {footer}
+        <div className='mx-auto max-w-2xl'>
+          {header}
+          {children}
+          {footer}
+        </div>
+        
         
         </body>
     </html>
