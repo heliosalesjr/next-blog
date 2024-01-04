@@ -3,8 +3,6 @@ import Link from "../../node_modules/next/link";
 import getPostMetadata from "./components/getPostMetadata";
 import PostPreview from "./components/PostPreview";
 
-
-
 export default function Home() {
   
   const postMetadata = getPostMetadata();
@@ -12,7 +10,7 @@ export default function Home() {
     <PostPreview key={post.slug} {...post} />
   )
   return (
-    <div>
+    <div className="grid grid-cols-1 md:grid-cols-3">
       {postPreviews}
     </div>
   )

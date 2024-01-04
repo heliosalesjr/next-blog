@@ -17,9 +17,9 @@ export default function RootLayout({
 }) {
   const header = (
     <header>
-      <div className='bg-slate-800 text-center p-8 my-6 rounded-lg'>
+      <div className='bg-gradient-to-r from-fuchsia-700 via-fuchsia-950 to-purple-900 text-center p-8 my-6 rounded-lg'>
         <Link href={"/"}>
-         <h1 className='text-3xl text-white'>Hélio com H</h1>
+         <h1 className='text-3xl text-white font-bold'>Hélio com H</h1>
         </Link>
         
         <p className='text-slate-300'>This is Hélio's Blog</p>
@@ -29,7 +29,7 @@ export default function RootLayout({
 
   const footer = (
     <footer>
-      <div className='border-t border-slate-400 text-center mt-6 py-6 text-slate-400'>
+      <div className='border-t border-fuchsia-450 text-center mt-6 py-6 text-fuchsia-350'>
         <p className='text-lg'> 
         Developed by Hélio Sales Jr.</p>
         <p className='text-5xl'>👨🏾‍💻</p>
