@@ -1,5 +1,4 @@
 
-import Link from "../../node_modules/next/link";
 import getPostMetadata from "./components/getPostMetadata";
 import PostPreview from "./components/PostPreview";
 

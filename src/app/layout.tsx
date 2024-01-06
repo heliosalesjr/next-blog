@@ -30,7 +30,7 @@ export default function RootLayout({
   const footer = (
     <footer>
       <div className='border-t border-fuchsia-450 text-center mt-6 py-6 text-fuchsia-350'>
-        <p className='text-lg'> 
+        <p className='text-lg text-white'> 
         Developed by Hélio Sales Jr.</p>
         <p className='text-5xl'>👨🏾‍💻</p>
       </div>
