@@ -17,12 +17,12 @@ export default function RootLayout({
 }) {
   const header = (
     <header>
-      <div className='bg-gradient-to-r from-fuchsia-700 via-fuchsia-950 to-purple-900 text-center p-8 my-6 rounded-lg'>
+      <div className='bg-gradient-to-r from-blue-700 via-sky-900 to-purple-900 text-center p-8 my-6 rounded-lg'>
         <Link href={"/"}>
          <h1 className='text-3xl text-white font-bold'>Hélio com H</h1>
         </Link>
         
-        <p className='text-slate-300'>This is Hélio's Blog</p>
+        <p className='text-slate-200'>This is Hélio's Blog</p>
       </div>
     </header>
   );
