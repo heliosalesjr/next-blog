@@ -22,13 +22,13 @@ const PostPage = (props: any) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
   return (
-    <div className="bg-gray-800 rounded-lg py-4">
+    <div className="bg-white rounded-lg py-4">
       <div className="my-12 text-center">
-        <h1 className="text-2xl text-slate-300 ">{post.data.title}</h1>
-        <p className="text-slate-400 mt-2">{post.data.date}</p>
+        <h1 className="text-2xl text-slate-800 ">{post.data.title}</h1>
+        <p className="text-slate-600 mt-2">{post.data.date}</p>
       </div>
 
-      <article className="prose prose-invert m-8">
+      <article className="prose max-w-3xl mx-auto">
         <Markdown>{post.content}</Markdown>
       </article>
     </div>
