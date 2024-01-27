@@ -20,20 +20,12 @@ export default function RootLayout({
 }) {
   const header = (
     <header>
-<<<<<<< HEAD
-      <div className='text-center md:text-left p-8 my-6 md:flex'>
-=======
-      <div className='bg-gradient-to-r from-blue-700 via-sky-900 to-purple-900 text-center p-8 my-6 rounded-lg'>
->>>>>>> 5d465efb17bc6ffd9c1c3f9ca3eea1d25f4729e9
+      <div className=' p-8 my-6 rounded-lg'>
         <Link href={"/"}>
-         <h1 className='text-4xl md:text-6xl text-slate-800 font-semibold'>Hélio com H</h1>
+         <h1 className='text-2xl md:text-6xl text-slate-800 font-semibold'>Hélio com H</h1>
         </Link>
         
-<<<<<<< HEAD
-        <p className='text-slate-700 md:text-xl md:pl-8 md:m-4'>My tagline comes here</p>
-=======
-        <p className='text-slate-200'>This is Hélio's Blog</p>
->>>>>>> 5d465efb17bc6ffd9c1c3f9ca3eea1d25f4729e9
+        <p className='text-slate-500'>This is Hélio's Blog</p>
       </div>
     </header>
   );
